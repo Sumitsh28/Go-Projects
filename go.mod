@@ -10,9 +10,13 @@ require (
 	golang.org/x/exp v0.0.0-20241108190413-2d47ceb2692f
 )
 
-require github.com/gorilla/websocket v1.5.3 // indirect
+require (
+	github.com/gorilla/websocket v1.5.3 // indirect
+	golang.org/x/sys v0.23.0 // indirect
+)
 
 require (
+	github.com/bwmarrin/discordgo v0.28.1
 	github.com/containerd/containerd v1.7.24
 	github.com/go-sql-driver/mysql v1.5.0 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
