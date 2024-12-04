@@ -8,16 +8,21 @@ require (
 	github.com/joho/godotenv v1.5.1
 	go.mongodb.org/mongo-driver v1.17.1
 	golang.org/x/exp v0.0.0-20241108190413-2d47ceb2692f
+	google.golang.org/grpc v1.59.0
+	google.golang.org/protobuf v1.33.0
 )
 
 require (
+	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
+	github.com/stretchr/testify v1.8.4 // indirect
+	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/sys v0.23.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20231212172506-995d672761c0 // indirect
 )
 
 require (
 	github.com/bwmarrin/discordgo v0.28.1
-	github.com/containerd/containerd v1.7.24
 	github.com/go-sql-driver/mysql v1.5.0 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
